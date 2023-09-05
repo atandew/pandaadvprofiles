@@ -1,0 +1,102 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    max-width: 600px;
+    /* text-align: center; */
+    font-family: arial;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+/* Reset default margin and padding for the image container */
+.image-container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.custom-shape-divider-bottom-1693948174 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693948174 svg {
+    position: relative;
+    display: block;
+    width: calc(165% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1693948174 .shape-fill {
+    fill: #7bb63c;
+}
+
+.custom-shape-divider-bottom-1693948361 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1693948361 svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1693948361 .shape-fill {
+    fill: #ffffff;
+}
+
+.content {
+    margin-top: -40px;
+    border: 2px solid rgb(21, 255, 0);
+    z-index: 99;
+    position: relative;
+}
