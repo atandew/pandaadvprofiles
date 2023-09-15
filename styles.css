@@ -2,8 +2,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100vw;
     max-width: 600px;
-    /* text-align: center; */
-    font-family: arial;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 body {
@@ -96,7 +95,34 @@ img {
 
 .content {
     margin-top: -40px;
-    border: 2px solid rgb(21, 255, 0);
+    /* border: 2px solid rgb(21, 255, 0); */
     z-index: 99;
     position: relative;
+}
+
+.name-role-container{
+    margin: 1rem 0 2rem 1rem;
+    border-left: 1px dashed #0000007a;
+    padding-left: 1.5em;
+}
+
+.curvy-border-container{
+    position: relative;
+}
+
+.comp-logo-container>img{
+    position: absolute;
+    right: 10px;
+    z-index: 99;
+    bottom: 3rem;
+}
+
+.name-role-container > p{
+    margin: 10px 0 10px 0;
+}
+
+.user-full-name{
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 2.25rem;
 }
