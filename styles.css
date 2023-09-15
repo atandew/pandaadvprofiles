@@ -135,17 +135,42 @@ img {
 
 .details-container {
   padding-left: 1.5rem;
+  font-family: "Nunito Sans";
+  padding-bottom: 20px;
 }
 
 .logo-container {
   background-color: #7bb63c;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 
 .logo-svg-container {
   position: relative;
-  left: 12px;
-  top: 12px;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.logo-svg-container > svg {
+  height: 1.5em;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 14px;
+  color: #a7a4a4;
+}
+
+.f-1-1-rem {
+  font-size: 1.1rem;
+}
+
+.m-t-6 {
+  margin-top: 6px;
 }
