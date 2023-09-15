@@ -1,128 +1,151 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100vw;
-    max-width: 600px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  max-width: 600px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .title {
-    color: grey;
-    font-size: 18px;
+  font-size: 1.25rem;
+  font-family: "Nunito Sans";
+  margin-top: 5px;
 }
 
 button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
 a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
 button:hover,
 a:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* Reset default margin and padding for the image container */
-.image-container {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    position: relative;
+.profile-pic-container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
 }
 
 /* Style the image */
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .custom-shape-divider-bottom-1693948174 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1693948174 svg {
-    position: relative;
-    display: block;
-    width: calc(165% + 1.3px);
-    height: 120px;
+  position: relative;
+  display: block;
+  width: calc(165% + 1.3px);
+  height: 120px;
 }
 
 .custom-shape-divider-bottom-1693948174 .shape-fill {
-    fill: #7bb63c;
+  fill: #7bb63c;
 }
 
 .custom-shape-divider-bottom-1693948361 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1693948361 svg {
-    position: relative;
-    display: block;
-    width: calc(170% + 1.3px);
-    height: 100px;
+  position: relative;
+  display: block;
+  width: calc(170% + 1.3px);
+  height: 100px;
 }
 
 .custom-shape-divider-bottom-1693948361 .shape-fill {
-    fill: #ffffff;
+  fill: #ffffff;
 }
 
 .content {
-    margin-top: -40px;
-    /* border: 2px solid rgb(21, 255, 0); */
-    z-index: 99;
-    position: relative;
+  margin-top: -40px;
+  /* border: 2px solid rgb(21, 255, 0); */
+  z-index: 99;
+  position: relative;
 }
 
-.name-role-container{
-    margin: 1rem 0 2rem 1rem;
-    border-left: 1px dashed #0000007a;
-    padding-left: 1.5em;
+.name-role-container {
+  margin: 1rem 0 0rem 1.4rem;
+  border-left: 1px dashed #0000007a;
+  padding-left: 1.5em;
 }
 
-.curvy-border-container{
-    position: relative;
+.curvy-border-container {
+  position: relative;
 }
 
-.comp-logo-container>img{
-    position: absolute;
-    right: 10px;
-    z-index: 99;
-    bottom: 3rem;
+.comp-logo-container > img {
+  position: absolute;
+  right: 10px;
+  z-index: 99;
+  bottom: 3rem;
 }
 
-.name-role-container > p{
-    margin: 10px 0 10px 0;
+.user-full-name {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+  font-family: "Nunito Sans";
 }
 
-.user-full-name{
-    font-size: 1.75rem;
-    font-weight: 800;
-    line-height: 2.25rem;
+.comp-name {
+  margin-top: -11px;
+  font-size: 1.25rem;
+  font-family: "Nunito Sans";
+  color: #211e1e;
+  font-weight: 100;
+}
+
+.details-container {
+  padding-left: 1.5rem;
+}
+
+.logo-container {
+  background-color: #7bb63c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo-svg-container {
+  position: relative;
+  left: 12px;
+  top: 12px;
 }
