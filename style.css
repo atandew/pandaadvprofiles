@@ -1,0 +1,38 @@
+.logo-container {
+  width: 100%;
+  text-align: center;
+  height: 48.7vh;
+  margin-top: 10px;
+}
+
+.bottom-container{
+   height: 50vh;
+   background-color: rgb(255, 211, 15);
+}
+
+body{
+    margin: 0;
+}
+
+body,
+.countdown h1,
+.countdown p,
+.countdown .button {
+    transition: all .2s ease-in-out;
+}
+
+.countdown {
+    font-family: 'Roboto', sans-serif;
+    width: 550px;
+    margin: auto;
+}
+
+
+.coming-soon-label{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
