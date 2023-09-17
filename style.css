@@ -57,18 +57,20 @@ body {
 .logo-container {
     text-align: center;
     padding: 20px;
+    height: 50vh;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    max-height: 48vh;
 }
 
 .bottom-container {
     text-align: center;
     padding: 20px;
     background-color: rgb(255, 211, 15);
-    height: 40.8vh;
+    height: 50vh;
 }
 
 .coming-soon-label {
@@ -106,6 +108,10 @@ img {
         padding-top: 15vh;
         width: 90%;
         padding-left: 1em;
+    }
+
+    .countdown{
+
     }
 
     
