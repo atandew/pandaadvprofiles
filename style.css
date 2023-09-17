@@ -1,4 +1,4 @@
-.logo-container {
+/* .logo-container {
   width: 100%;
   text-align: center;
   height: 48.7vh;
@@ -36,3 +36,93 @@ body,
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
+
+@media only screen and (max-width: 900px) {
+    .logo-container > img {
+        width: 100%;
+    }
+
+    .logo-container{
+        border: 1px solid black;
+    }
+} */
+
+/* Default styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 211, 15);
+    height: 40.8vh;
+}
+
+.coming-soon-label {
+    font-size: 4em;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 1em;
+}
+
+.countdown {
+    font-family: 'Roboto', sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Media query for screens smaller than 768px (e.g., mobile phones) */
+@media (max-width: 768px) {
+    .coming-soon-label {
+        font-size: 3em;
+    }
+
+    .countdown {
+        margin-left: 6vw;
+    }
+
+    .logo-container{
+        min-height: 50vh;
+    }
+
+    .bottom-container{
+        min-height: 50vh;
+    }
+
+    img{
+        padding-top: 15vh;
+        width: 90%;
+        padding-left: 1em;
+    }
+
+    
+}
+
+/* Media query for screens larger than 768px but smaller than 1200px (e.g., tablets) */
+/* @media (min-width: 769px) and (max-width: 1199px) {
+    .coming-soon-label {
+        font-size: 28px;
+    }
+} */
+
+/* Media query for screens larger than 1200px (e.g., desktops) */
+/* @media (min-width: 1200px) {
+    .coming-soon-label {
+        font-size: 32px;
+    }
+} */
+
+/* Add any additional styling you need for different screen sizes */
