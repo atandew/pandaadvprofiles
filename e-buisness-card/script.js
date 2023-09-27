@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
       contact.phone +
       "\nEMAIL:" +
       contact.email +
+      "COMPANY:" +
+      contact.company +
       "\nEND:VCARD";
     var blob = new Blob([vcard], { type: "text/vcard" });
     var url = URL.createObjectURL(blob);
