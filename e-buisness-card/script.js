@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       contact.phone +
       "\nEMAIL:" +
       contact.email +
-      "COMPANY:" +
+      "\nORG:" +
       contact.company +
       "\nEND:VCARD";
     var blob = new Blob([vcard], { type: "text/vcard" });
