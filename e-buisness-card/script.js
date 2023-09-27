@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Shreyansh Mogari",
       phone: "+917999650832",
       email: "shreyansh@pandaadvertising.in",
+      company: "Panda Advertising",
     };
     // create a vcard file
     var vcard =
