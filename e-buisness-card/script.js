@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var vcard =
       "BEGIN:VCARD\nVERSION:4.0\nFN:" +
       contact.name +
-      "\nTEL;TYPE#work,voice:" +
+      "\nTEL;TYPE#work:" +
       contact.phone +
       "\nEMAIL:" +
       contact.email +
