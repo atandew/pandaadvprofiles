@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "\nEND:VCARD";
 
     vcard = `BEGIN:VCARD
-            \nVERSION:3.0
+            \nVERSION:4.0
             \nN:Mr.;
             \nFN:Forrest Gump
             \nORG:Bubba Gump Shrimp Co.
