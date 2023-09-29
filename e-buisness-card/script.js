@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       contact.phone +
       "\nEMAIL:" +
       contact.email +
-      "\nPHOTO;VALUE#URI:" +
+      "\nPHOTO;MEDIATYPE#image/jpg:" +
       "https://pandaadvertising.in/assets/images/shreyansh-mogari-dp.jpg-large-preserve-ratio" +
       //   "\nORG:" +
       //   contact.company +
