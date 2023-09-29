@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
       contact.phone +
       "\nEMAIL:" +
       contact.email +
-      "\nPHOTO;MEDIATYPE#image/jpg:" +
+      "\nPHOTO;MEDIATYPE#image:" +
       "https://pandaadvertising.in/assets/images/shreyansh-mogari-dp.jpg-large-preserve-ratio" +
-      //   "\nORG:" +
-      //   contact.company +
+      "\nORG:" +
+      contact.company +
       "\nEND:VCARD";
 
     // vcard = `BEGIN:VCARD
