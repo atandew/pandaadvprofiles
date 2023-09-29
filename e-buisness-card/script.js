@@ -307,4 +307,47 @@ END:VCARD`;
 
     newLink.click();
   });
+
+  var callBtn = document.getElementById("phone-call");
+  callBtn.addEventListener("click", function () {
+    window.location.href = "tel:+917999650832";
+  });
+
+  var wpBtn = document.getElementById("whatsapp-text");
+  wpBtn.addEventListener("click", function () {
+    window.location.href = "https://api.whatsapp.com/send?phone=+917999650832";
+  });
+
+  var hppBtn = document.getElementById("home-page-panda");
+  hppBtn.addEventListener("click", function () {
+    window.open("https://pandaadvertising.in/", "_blank");
+  });
+
+  var calBtn = document.getElementById("cal-btn");
+  calBtn.addEventListener("click", function () {
+    window.open("https://calendly.com/shreyanshmogari", "_blank");
+  });
+
+  var instaBtn = document.getElementById("insta-btn");
+  instaBtn.addEventListener("click", function () {
+    window.location.href = "https://www.instagram.com/pandaadvertising.in";
+  });
+
+  var fbBtn = document.getElementById("fb-btn");
+  fbBtn.addEventListener("click", function () {
+    window.open("https://facebook.com/pandaadvertising", "_blank");
+  });
+
+  var lnkdBtn = document.getElementById("lnkdn-btn");
+  lnkdBtn.addEventListener("click", function () {
+    window.open("https://linkedin.com/in/shreyansh-mogari", "_blank");
+  });
+
+  //     URL;TYPE=WHATSAPP:https://api.whatsapp.com/send?phone=+917999650832
+  // URL;TYPE=WEBSITE:https://www.pandaadvertising.in
+  // URL;TYPE=CALENDLY:https://calendly.com/shreyanshmogari
+  //"instagram://user?username=pandaadvertising.in";
+  // URL;TYPE=INSTAGRAM:https://www.instagram.com/pandaadvertising.in
+  // URL;TYPE=FACEBOOK:https://facebook.com/pandaadvertising
+  // URL;TYPE=LINKEDIN:https://linkedin.com/in/shreyansh-mogari
 });
