@@ -20,15 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
       //   contact.company +
       "\nEND:VCARD";
 
-    vcard = `BEGIN:VCARD
-            \nVERSION:4.0
-            \nN:Mr.;
-            \nFN:Forrest Gump
-            \nORG:Bubba Gump Shrimp Co.
-            \nTITLE:Shrimp Man
-            \nPHOTO;VALUE#URI;TYPE#GIF:http://www.example.com/dir_photos/my_photo.gif
-            \nTEL;TYPE#WORK,VOICE:(111) 555-1212\nEMAIL:forrestgump@example.com
-            \nEND:VCARD`;
+    // vcard = `BEGIN:VCARD
+    //         \nVERSION:4.0
+    //         \nN:Mr.;
+    //         \nFN:Forrest Gump
+    //         \nORG:Bubba Gump Shrimp Co.
+    //         \nTITLE:Shrimp Man
+    //         \nTEL;TYPE#WORK,VOICE:(111) 555-1212\nEMAIL:forrestgump@example.com
+    //         \nEND:VCARD`;
     var blob = new Blob([vcard], { type: "text/vcard" });
     var url = URL.createObjectURL(blob);
 
