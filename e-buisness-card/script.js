@@ -14,12 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
       contact.name +
       "\nTEL:" +
       contact.phone +
+      "\nORG:" +
+      contact.company +
       "\nEMAIL:" +
       contact.email +
       "\nPHOTO;MEDIATYPE#image:" +
       "https://pandaadvertising.in/assets/images/shreyansh-mogari-dp.jpg-large-preserve-ratio" +
-      "\nORG:" +
-      contact.company +
+      "TITLE:Shrimp Man" +
       "\nEND:VCARD";
 
     // vcard = `BEGIN:VCARD
