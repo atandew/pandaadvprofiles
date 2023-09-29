@@ -12,13 +12,30 @@ document.addEventListener("DOMContentLoaded", () => {
     var vcard =
       "BEGIN:VCARD\nVERSION:4.0\nFN:" +
       contact.name +
-      "\nTEL;TYPE=work,voice:" +
+      "\nTEL;TYPE#work,voice:" +
       contact.phone +
       "\nEMAIL:" +
       contact.email +
-      "\nORG:" +
-      contact.company +
+      //   "\nORG:" +
+      //   contact.company +
       "\nEND:VCARD";
+
+    vcard = `BEGIN:VCARD
+            \nVERSION:3.0
+            \nN:Gump;Forrest;;Mr.;
+            \nFN:Forrest Gump
+            \nORG:Bubba Gump Shrimp Co.
+            \nTITLE:Shrimp Man
+            \nPHOTO;VALUE#URI;TYPE#GIF:http://www.example.com/dir_photos/my_photo.gif
+            \nTEL;TYPE#WORK,VOICE:(111) 555-1212
+            \nTEL;TYPE#HOME,VOICE:(404) 555-1212
+            \nADR;TYPE#WORK,PREF:;;100 Waters Edge;Baytown;LA;30314;United States of America
+            \nLABEL;TYPE#WORK,PREF:100 Waters Edge\nBaytown\, LA 30314\nUnited States of America
+            \nADR;TYPE#HOME:;;42 Plantation St.;Baytown;LA;30314;United States of America
+            \nLABEL;TYPE#HOME:42 Plantation St.\nBaytown\, LA 30314\nUnited States of America
+            \nEMAIL:forrestgump@example.com
+            \nREV:2008-04-24T19:52:43Z
+            \nEND:VCARD`;
     var blob = new Blob([vcard], { type: "text/vcard" });
     var url = URL.createObjectURL(blob);
 
